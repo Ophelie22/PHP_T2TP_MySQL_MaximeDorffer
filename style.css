@@ -1,0 +1,110 @@
+/* Maxime DORFFER
+Style CSS de mon application web Factures */
+
+h1
+{
+	font-size: x-large;
+	width: 210px;
+	text-align: center;
+}
+
+
+p
+{
+	font-family; verdana, serif;
+	color: blue;
+}
+
+p, h2
+{
+	margin-left: 200px;
+	margin-right: 90px;
+}
+
+html 
+{
+	width: 100%;
+	background-color: #191970;
+	font-family: verdana, serif;
+}
+
+
+header
+{
+	text-align: center;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 200px 600px 0 0;
+	border-color: #007bff transparent transparent transparent;
+}
+
+li
+{
+	text-align: left;
+}
+
+
+body
+{
+	text-align: center;
+	border: 15px solid black;
+	border-radius: 35px;
+	height:100%;
+	
+	margin-top: 0px;
+	margin-bottom: 0%;
+	margin-left:20%;
+	margin-right:20%;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 30%;
+	
+	background-color: rgba(255,255,255,0.8);
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}	
+
+
+.bienvenue
+{
+	font-size: x-large;
+	margin-left: 250px;
+	margin-right: 90px;
+	text-align: center;
+}
+
+iframe, figcaption
+{
+	margin-left: 250px;
+	margin-right: 90px;
+	text-align: center;
+}
+
+footer
+{
+	padding-top: 150px;
+	text-align: center;
+}
+
+.niveau1
+{
+	text-align: center;
+}
+
+
+@media print
+{
+ body *
+  {
+    display:none;
+  }
+   #super
+   {
+    display:block;
+  }
+}
+
+
